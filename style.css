@@ -1,10 +1,102 @@
 .jumbotron {
   padding-top: 6rem;
-  background-color: #e2edff;
+  background-color: #5000ca;
+}
+
+.navbar {
+  background-color: #5000ca;
+}
+
+.footer {
+  background-color: #5000ca;
+}
+
+#educational {
+  background-color: #5000ca;
+}
+
+#educational .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #3b434a;
+}
+
+#educational .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #82909c;
+  position: relative;
+}
+
+#educational .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #82909c;
 }
 
 #projects {
-  background-color: #e2edff;
+  background-color: #5000ca;
+}
+
+#sosmed .info-box {
+  color: white;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(7, 0, 0, 0.6);
+  background-color: #5000ca;
+  padding: 20px 0 30px 0;
+  border-radius: 10px;
+}
+#sosmed .info-box i.bx {
+  font-size: 24px;
+  color: #ffb727;
+  border-radius: 50%;
+  padding: 15px;
+  background: #fff6e4;
+}
+#sosmed .info-box h3 {
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  margin: 10px 0;
+}
+#sosmed .info-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+#sosmed .social-links {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+#sosmed .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  color: white;
+  line-height: 1;
+  margin: 0 8px;
+  transition: 0.3s;
+  padding: 14px;
+  border-radius: 50px;
+  border: 1px solid #dde1e4;
+}
+.contact .social-links a:hover {
+  color: #fff;
+  border-color: #ffb727;
+  background: #ffb727;
+}
+
+.btn {
+  background-color: #5000ca;
 }
 
 section {
