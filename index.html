@@ -11,6 +11,9 @@
     <!-- icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
 
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- mycss -->
     <link rel="stylesheet" href="style.css" />
 
@@ -52,9 +55,9 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/jovi.jpg" alt="Jovi Julian" width="200" class="rounded-circle img-thumbnail" />
+      <img src="img/jovi.jpg" alt="Jovi Julian" width="200" class="rounded-circle img-thumbnail" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000" />
       <h1 class="display-4 text-light">Jovi Julian Hendri</h1>
-      <p class="lead text-light">Colleger | Junior Programmer</p>
+      <p class="lead text-light"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#fff"
@@ -69,18 +72,18 @@
     <section id="about">
       <div class="container">
         <div class="row text-center mb-5">
-          <div class="col">
+          <div class="col" data-aos="fade-down" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000">
             <p>
               I am second year college student at Institut Digital Ekonomi LPKIA Bandung starting to look for roles in Programming. As an Informatics Management major, I have experience in programming since I was in high school because my
               major in high school was software engineering.
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-offset="300" data-aos-delay="200" data-aos-duration="1000">
             <p>
               I've had 2 internships as a programmer, I learned about programming a lot during my internship. I have participated in helping to make projects for the company. Let's connect or you can reach me out
               <a href="#sosmed" class="text-dark">Here!</a>
@@ -102,20 +105,20 @@
     <section id="educational">
       <div class="container">
         <div class="row text-center text-light mb-5">
-          <div class="col">
+          <div class="col" data-aos="fade-down" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000">
             <h2>Educational</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5">
           <div class="col-md-4">
-            <div class="resume-item pb-0 text-light">
+            <div class="resume-item pb-0 text-light" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000">
               <h3>Medikacom Vocational High School</h3>
               <strong>2017 - 2020</strong>
               <p><em>Software Engineering</em></p>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="resume-item pb-0 text-light">
+            <div class="resume-item pb-0 text-light" data-aos="fade-left" data-aos-offset="300" data-aos-delay="200" data-aos-duration="1000">
               <h3>LPKIA Institute of Digital Economy</h3>
               <strong>2020 - now</strong>
               <p><em>Information Management</em></p>
@@ -137,14 +140,14 @@
     <section id="sosmed">
       <div class="container">
         <div class="row text-center mb-5">
-          <div class="col">
+          <div class="col" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-offset="200">
             <h2>My Social Media</h2>
             <p>Want to get in touch? I'd love to hear from you. Here's how you can reach me!</p>
           </div>
         </div>
         <div class="row justify-content-center fs-5">
           <div class="col-md-9">
-            <div class="info-box">
+            <div class="info-box" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-offset="200">
               <i class="bi bi-share-fill"></i>
               <h3>Social Profiles</h3>
               <div class="social-links">
@@ -155,14 +158,14 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="info-box mt-4">
+            <div class="info-box mt-4" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200">
               <i class="bi bi-envelope-fill"></i>
               <h3>Email Me</h3>
               <p>jovijulian2002@gmail.com</p>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="info-box mt-4">
+            <div class="info-box mt-4" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200">
               <i class="bi bi-telephone-fill"></i>
               <h3>Call Me</h3>
               <p>+6281313162548</p>
@@ -184,7 +187,7 @@
     <section id="projects">
       <div class="container">
         <div class="row text-center text-light mb-5">
-          <div class="col">
+          <div class="col" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-offset="200">
             <h2>My Portofolio</h2>
           </div>
         </div>
@@ -251,16 +254,6 @@
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/projects/aplikasi-pegawai.png" class="card-img-top" alt="Aplikasi Pegawai" />
-              <div class="card-body">
-                <h2>Aplikasi Pegawai</h2>
-                <p class="card-text">Aplikasi Pegawai adalah aplikasi untuk mengolah data Pegawai pada perusahaan. Aplikasi ini menggunakan PHP sudah terkoneksi ke database</p>
-                <p class="card-text">Link Repository: klik <a href="https://github.com/jovijulian/aplikasi-pegawai-php">Disini!</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
               <img src="img/projects/project-nilai.png" class="card-img-top" alt="Aplikasi Nilai" />
               <div class="card-body">
                 <h2>Aplikasi Nilai</h2>
@@ -274,8 +267,18 @@
               <img src="img/projects/project-perpustakaan.png" class="card-img-top" alt="Aplikasi Perpustakaan" />
               <div class="card-body">
                 <h2>Aplikasi Perpustakaan</h2>
-                <p class="card-text">Aplikasi Perpustakaan adalah aplikasi untuk mengolahh data Perpustakaan seperti buku, petugas, anggota, transaksi menggunakan Python sudah terkoneksi ke database</p>
+                <p class="card-text">Aplikasi Perpustakaan adalah aplikasi untuk mengolah data Perpustakaan seperti buku, petugas, anggota, transaksi menggunakan Python terminal sudah terkoneksi ke database</p>
                 <p class="card-text">Link Repository: klik <a href="https://github.com/jovijulian/crud-perpustakaan-pyhton">Disini!</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/aplikasi-pegawai.png" class="card-img-top" alt="Aplikasi Pegawai" />
+              <div class="card-body">
+                <h2>Aplikasi Pegawai</h2>
+                <p class="card-text">Aplikasi Pegawai adalah aplikasi untuk mengolah data Pegawai pada perusahaan. Aplikasi ini menggunakan PHP sudah terkoneksi ke database</p>
+                <p class="card-text">Link Repository: klik <a href="https://github.com/jovijulian/aplikasi-pegawai-php">Disini!</a></p>
               </div>
             </div>
           </div>
@@ -344,6 +347,23 @@
     <!-- akhir footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
     <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".lead", { duration: 2, delay: 1, text: "Colleger | Junior Programmer" });
+      gsap.from(".navbar", { duration: 1.5, y: "-100%", opacity: 0, ease: "bounce" });
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const project = document.querySelectorAll(".card");
+      project.forEach((card, i) => {
+        (card.dataset.aos = "flip-down"), (card.dataset.aosDuration = 1000);
+      });
+      AOS.init({});
+    </script>
   </body>
 </html>
