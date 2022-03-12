@@ -3,6 +3,21 @@
   background-color: #5000ca;
 }
 
+/* mengatasi bug tidak responsive dari library aos */
+* {
+  overflow-x: hidden;
+}
+/* untuk menyembunyikan scrollbar dari overflow ktika run di chrome */
+*::-webkit-scrollbar {
+  display: none; /* untuk menyembunyikan scrollbar dari overflow ktika run di chrome */
+}
+/* untuk menyembunyikan scrollbar dari overflow ktika run di IE, Edge, Firefox */
+* {
+  -ms-overflow-style: none; /* IE dan Edge */
+  scrollbar-width: none; /* Firefox */
+}
+/* akhir bug */
+
 .navbar {
   background-color: #5000ca;
 }

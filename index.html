@@ -17,7 +17,7 @@
     <!-- mycss -->
     <link rel="stylesheet" href="assets/css/style.css" />
 
-    <title>Jovi Portofolio</title>
+    <title>Jovi's Portofolio</title>
   </head>
   <body id="home">
     <!-- navbar -->
@@ -30,10 +30,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link scrollto active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link scrollto" href="#about">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#educational">Educational</a>
@@ -57,7 +57,6 @@
     <section class="jumbotron text-center">
       <img src="assets/img/jovi.jpg" alt="Jovi Julian" width="200" class="rounded-circle img-thumbnail" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000" />
       <h1 class="display-4 text-light">Jovi Julian Hendri</h1>
-      <!-- <p class="lead text-light"></p> -->
       <span class="typed text-light fs-3" data-typed-items="College Student, Junior Programmer"></span>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -73,18 +72,18 @@
     <section id="about">
       <div class="container">
         <div class="row text-center mb-5">
-          <div class="col" data-aos="fade-down" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000">
+          <div class="col" data-aos="fade-down" data-aos-delay="50" data-aos-duration="1000">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5">
-          <div class="col-md-4" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000">
+          <div class="col-md-4" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
             <p>
               I am second year college student at Institut Digital Ekonomi LPKIA Bandung starting to look for roles in Programming. As an Informatics Management major, I have experience in programming since I was in high school because my
               major in high school was software engineering.
             </p>
           </div>
-          <div class="col-md-4" data-aos="fade-left" data-aos-offset="300" data-aos-delay="200" data-aos-duration="1000">
+          <div class="col-md-4" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
             <p>
               I've had 2 internships as a programmer, I learned about programming a lot during my internship. I have participated in helping to make projects for the company. Let's connect or you can reach me out
               <a href="#sosmed" class="text-dark">Here!</a>
@@ -365,6 +364,7 @@
         (card.dataset.aos = "flip-down"), (card.dataset.aosDuration = 1000);
       });
       AOS.init({});
+      AOS.init();
     </script>
   </body>
 </html>
