@@ -22,6 +22,10 @@
   background-color: #5000ca;
 }
 
+.active {
+  color: var(--first-color);
+}
+
 .footer {
   background-color: #5000ca;
 }
