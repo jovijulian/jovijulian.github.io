@@ -49,5 +49,17 @@ window.addEventListener("scroll", () => {
     } else {
       document.querySelector('li a[href*="' + sectionId + '"]').classList.remove("active");
     }
+    console.log(sectionId);
+  });
+});
+
+window.addEventListener("scroll", () => {
+  let nav = document.querySelector("nav");
+  window.addEventListener("scroll", () => {
+    if (window.pageYOffset > 100) {
+      nav.classList.add("bg-dark");
+    } else {
+      nav.classList.remove("bg-dark");
+    }
   });
 });

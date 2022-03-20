@@ -20,44 +20,54 @@
     <title>Jovi's Portofolio</title>
   </head>
   <body id="home">
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Jovi Julian</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#educational">Educational</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#sosmed">Social Media</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Portofolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+    <header>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#resume">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Portofolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <!-- akhir navbar -->
+      </nav>
+      <!-- akhir navbar -->
+    </header>
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center" id="#">
-      <img src="assets/img/jovi.png" alt="Jovi Julian" width="200" class="rounded-circle img-thumbnail" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000" />
-      <h1 class="display-4 text-light">Jovi Julian Hendri</h1>
-      <h2 class="text-light">I'm <span class="typed text-light" data-typed-items="College Student, Junior Programmer"></span></h2>
+      <div class="row justify-content-center fs-5 align-items-center align-content-center">
+        <div class="col-md-4">
+          <img src="assets/img/jovi.png" alt="Jovi Julian" width="300" class="rounded-circle img-thumbnail" />
+        </div>
+        <div class="col-md-4 order-md-first text-start">
+          <p class="text-light mb-1 fw-bold">Hello I'm</p>
+          <h1><span class="typed text-light" data-typed-items="College Student, Junior Programmer"></span></h1>
+          <h3 class="display-4 text-light fw-bold">Jovi Julian Hendri</h3>
+          <p class="text-light">I am second year college student at LPKIA Institute of Digital Economy Bandung...</p>
+          <a href="#about" class="btn btn-dark px-3 mt-3">Learn more about me!</a>
+        </div>
+      </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#fff"
@@ -79,14 +89,14 @@
         <div class="row justify-content-center fs-5">
           <div class="col-md-4" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
             <p>
-              I am second year college student at Institut Digital Ekonomi LPKIA Bandung starting to look for roles in Programming. As an Informatics Management major, I have experience in programming since I was in high school because my
-              major in high school was software engineering.
+              Hello! My name is Jovi Julian Hendri. I am second year college student at LPKIA Institute of Digital Economy Bandung starting to look for roles in Programming. As an Informatics Management major, I have experience in
+              programming since I was in high school because my major in high school was software engineering.
             </p>
           </div>
           <div class="col-md-4" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
             <p>
               I've had 2 internships as a programmer, I learned about programming a lot during my internship. I have participated in helping to make projects for the company. Let's connect or you can reach me out
-              <a href="#sosmed" class="text-dark">Here!</a>
+              <a href="#contact" class="text-dark">Here!</a>
             </p>
           </div>
         </div>
@@ -101,27 +111,43 @@
     </section>
     <!-- akhir about -->
 
-    <!-- Educational -->
-    <section id="educational">
+    <!-- Resunme -->
+    <section id="resume">
       <div class="container">
         <div class="row text-center text-light mb-5">
           <div class="col" data-aos="fade-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
-            <h2>Educational</h2>
+            <h2>My Resume</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5">
-          <div class="col-md-4">
-            <div class="resume-item pb-0 text-light" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000">
-              <h3>Medikacom Vocational High School</h3>
-              <strong>2017 - 2020</strong>
-              <p><em>Software Engineering</em></p>
+          <div class="col-lg-6">
+            <h3 class="resume-title" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">Education</h3>
+            <div class="resume-item" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
+              <h4>Information Management</h4>
+              <h5>2020 - now</h5>
+              <p><em>LPKIA Institute of Digital Economy</em></p>
+            </div>
+            <div class="resume-item" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
+              <h4>Software Engineering</h4>
+              <h5>2017 - 2020</h5>
+              <p><em>Medikacom Vocational High School</em></p>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="resume-item pb-0 text-light" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000">
-              <h3>LPKIA Institute of Digital Economy</h3>
-              <strong>2020 - Now</strong>
-              <p><em>Information Management</em></p>
+          <div class="col-lg-6">
+            <h3 class="resume-title" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">Internship Experiences</h3>
+            <div class="resume-item" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
+              <h4>Programmer</h4>
+              <h5>August 2020 - December 2020</h5>
+              <p><em>PT. Amal Solution, Bandung.</em></p>
+              <p>Participate in making company project programs.</p>
+              <p>Learned about Node js, Maria DB, Neo 4J.</p>
+            </div>
+            <div class="resume-item" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
+              <h4>Programmer</h4>
+              <h5>August 2019 - 2018</h5>
+              <p><em>PT. Sagara Technology, Bandung.</em></p>
+              <p>Participate in the creation of job vacancies menu on the company website.</p>
+              <p>Make articles for company websites every 1 week per month.</p>
             </div>
           </div>
         </div>
@@ -134,152 +160,95 @@
         ></path>
       </svg>
     </section>
-    <!-- akhir educational -->
-
-    <!-- Sosial Media -->
-    <section id="sosmed">
-      <div class="container">
-        <div class="row text-center mb-5">
-          <div class="col" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-offset="200">
-            <h2>My Social Media</h2>
-            <p>Want to get in touch? I'd love to hear from you. Here's how you can reach me!</p>
-          </div>
-        </div>
-        <div class="row justify-content-center fs-5">
-          <div class="col-md-9">
-            <div class="info-box" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-offset="200">
-              <i class="bi bi-share-fill"></i>
-              <h3>Social Profiles</h3>
-              <div class="social-links">
-                <a href="https://wa.me/6281313162548/"><i class="bi bi-whatsapp"></i></a>
-                <a href="https://www.instagram.com/julianjv_/" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/jovijulian2002/" class="linkedin"><i class="bi bi-linkedin"></i></a>
-                <a href="https://github.com/jovijulian"><i class="bi bi-github"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="info-box mt-4" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200">
-              <i class="bi bi-envelope-fill"></i>
-              <h3>Email Me!</h3>
-              <p>jovijulian2002@gmail.com</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="info-box mt-4" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200">
-              <i class="bi bi-telephone-fill"></i>
-              <h3>Call Me!</h3>
-              <p>+6281313162548</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#5000CA"
-          fill-opacity="1"
-          d="M0,0L40,37.3C80,75,160,149,240,181.3C320,213,400,203,480,186.7C560,171,640,149,720,160C800,171,880,213,960,245.3C1040,277,1120,299,1200,266.7C1280,235,1360,149,1400,106.7L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- AKhir Sosial Media -->
+    <!-- akhir resume -->
 
     <!-- projects -->
     <section id="projects">
       <div class="container">
-        <div class="row text-center text-light mb-5">
+        <div class="row text-center text-dark mb-5">
           <div class="col" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-offset="200">
             <h2>My Portofolio</h2>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="assets/img/projects/aplikasi-note.png" class="card-img-top" alt="Aplikasi Note" />
+            <div class="card bg-dark text-light">
+              <img src="assets/img/projects/aplikasi-note.png" class="card-img-top img-thumbnail" alt="Aplikasi Note" />
               <div class="card-body">
-                <h2>Notes App</h2>
-                <p class="card-text">Notes App adalah aplikasi untuk membuat catatan sederhana dilengkapi dengan add note, view note, delete note, edit note. Aplikasi ini menggunakan vannila javascript</p>
-                <p class="card-text">Link Repository: klik <a href="https://github.com/jovijulian/notes-app-js">Disini!</a></p>
+                <h2>Notes App - JavaScript</h2>
+                <p class="card-text">Source code: click <a href="https://github.com/jovijulian/notes-app-js">Here!</a></p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="assets/img/projects/aplikasi-movie.png" class="card-img-top" alt="Project Movie" />
+            <div class="card bg-dark text-light">
+              <img src="assets/img/projects/aplikasi-movie.png" class="card-img-top img-thumbnail" alt="Project Movie" />
               <div class="card-body">
-                <h2>Aplikasi Pencarian Movie</h2>
-                <p class="card-text">Aplikasi Pencarian Movie adalah aplikasi untuk mencari berbagai macam movie. Aplikasi ini menggunakan vanilla javascript dan API dari omdbapi.com</p>
-                <p class="card-text">Link Repository: klik <a href="https://github.com/jovijulian/aplikasi-pencarian-movie-js">Disini!</a></p>
+                <h2>Search Movie App - JavaScript</h2>
+                <p class="card-text">Source code: click <a href="https://github.com/jovijulian/aplikasi-pencarian-movie-js">Here!</a></p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="assets/img/projects/project-spp.png" class="card-img-top" alt="Aplikasi SPP" />
+            <div class="card bg-dark text-light">
+              <img src="assets/img/projects/project-spp.png" class="card-img-top img-thumbnail" alt="Aplikasi SPP" />
               <div class="card-body">
-                <h2>Aplikasi SPP</h2>
-                <p class="card-text">Aplikasi SPP adalah aplikasi untuk mengolah data SPP pada sekolah. Aplikasi ini menggunakan PHP sudah terkoneksi ke database</p>
-                <p class="card-text">Link Repository: klik <a href="https://github.com/jovijulian/aplikasi-spp-php">Disini!</a></p>
+                <h2>SPP (School Fees) App - PHP</h2>
+                <p class="card-text">Source code: click <a href="https://github.com/jovijulian/aplikasi-spp-php">Here!</a></p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="assets/img/projects/project-retail.png" class="card-img-top" alt="Aplikasi Retail" />
+            <div class="card bg-dark text-light">
+              <img src="assets/img/projects/project-retail.png" class="card-img-top img-thumbnail" alt="Aplikasi Retail" />
               <div class="card-body">
-                <h2>Aplikasi Retail</h2>
-                <p class="card-text">Aplikasi Retail adalah aplikasi desktop untuk mengolah data Retail. Aplikasi ini menggunakan Java GUI sudah terkoneksi ke database</p>
-                <p class="card-text">Link Repository: klik <a href="https://github.com/jovijulian/aplikasi-retail-javagui">Disini!</a></p>
+                <h2>Retail App - Java GUI</h2>
+                <p class="card-text">Source code: click <a href="https://github.com/jovijulian/aplikasi-retail-javagui">Here!</a></p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="assets/img/projects/aplikasi-blog.png" class="card-img-top" alt="Aplikasi Blog" />
+            <div class="card bg-dark text-light">
+              <img src="assets/img/projects/aplikasi-blog.png" class="card-img-top img-thumbnail" alt="Aplikasi Blog" />
               <div class="card-body">
-                <h2>Aplikasi Blog</h2>
-                <p class="card-text">Aplikasi Blog adalah aplikasi untuk mengolah Blog dan menampilkannya. Aplikasi ini menggunakan laravel sudah terkoneksi ke database</p>
-                <p class="card-text">Link Repository: klik <a href="https://github.com/jovijulian/blog-laravel">Disini!</a></p>
+                <h2>Blog App - Laravel</h2>
+                <p class="card-text">Source code: click <a href="https://github.com/jovijulian/blog-laravel">Here!</a></p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="assets/img/projects/project-nilaiphp.png" class="card-img-top" alt="Aplikasi Nilai" />
+            <div class="card bg-dark text-light">
+              <img src="assets/img/projects/project-nilaiphp.png" class="card-img-top img-thumbnail" alt="Aplikasi Nilai" />
               <div class="card-body">
-                <h2>Aplikasi Nilai</h2>
-                <p class="card-text">Aplikasi Nilai adalah aplikasi untuk mengolah data Nilai pada sekolah. Aplikasi ini menggunakan PHP sudah terkoneksi ke database</p>
-                <p class="card-text">Link Repository: klik <a href="https://github.com/jovijulian/aplikasi-nilai-php">Disini!</a></p>
+                <h2>Grade App - PHP</h2>
+                <p class="card-text">Source code: click <a href="https://github.com/jovijulian/aplikasi-nilai-php">Here!</a></p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="assets/img/projects/project-nilai.png" class="card-img-top" alt="Aplikasi Nilai" />
+            <div class="card bg-dark text-light">
+              <img src="assets/img/projects/project-nilai.png" class="card-img-top img-thumbnail" alt="Aplikasi Nilai" />
               <div class="card-body">
-                <h2>Aplikasi Nilai</h2>
-                <p class="card-text">Aplikasi Nilai adalah aplikasi desktop untuk mengolah data Nilai sekolah. Aplikasi ini menggunakan Java GUI sudah terkoneksi ke database</p>
-                <p class="card-text">Link Repository: klik <a href="https://github.com/jovijulian/nilai-sekolah-javagui">Disini!</a></p>
+                <h2>Grade App - Java GUI</h2>
+                <p class="card-text">Source code: click <a href="https://github.com/jovijulian/nilai-sekolah-javagui">Here!</a></p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="assets/img/projects/project-perpustakaan.png" class="card-img-top" alt="Aplikasi Perpustakaan" />
+            <div class="card bg-dark text-light">
+              <img src="assets/img/projects/project-perpustakaan.png" class="card-img-top img-thumbnail" alt="Aplikasi Perpustakaan" />
               <div class="card-body">
-                <h2>Aplikasi Perpustakaan</h2>
-                <p class="card-text">Aplikasi Perpustakaan adalah aplikasi untuk mengolah data Perpustakaan seperti buku, petugas, anggota, transaksi menggunakan Python terminal sudah terkoneksi ke database</p>
-                <p class="card-text">Link Repository: klik <a href="https://github.com/jovijulian/crud-perpustakaan-pyhton">Disini!</a></p>
+                <h2>Library App - Pyhton</h2>
+                <p class="card-text">Source code: click <a href="https://github.com/jovijulian/crud-perpustakaan-pyhton">Here!</a></p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="assets/img/projects/aplikasi-pegawai.png" class="card-img-top" alt="Aplikasi Pegawai" />
+            <div class="card bg-dark text-light">
+              <img src="assets/img/projects/aplikasi-pegawai.png" class="card-img-top img-thumbnail" alt="Aplikasi Pegawai" />
               <div class="card-body">
-                <h2>Aplikasi Pegawai</h2>
-                <p class="card-text">Aplikasi Pegawai adalah aplikasi untuk mengolah data Pegawai pada perusahaan. Aplikasi ini menggunakan PHP sudah terkoneksi ke database</p>
-                <p class="card-text">Link Repository: klik <a href="https://github.com/jovijulian/aplikasi-pegawai-php">Disini!</a></p>
+                <h2>Employee App - PHP</h2>
+                <p class="card-text">Source code: click <a href="https://github.com/jovijulian/aplikasi-pegawai-php">Here!</a></p>
               </div>
             </div>
           </div>
@@ -287,47 +256,154 @@
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#ffffff"
+          fill="#5000ca"
           fill-opacity="1"
-          d="M0,160L30,133.3C60,107,120,53,180,48C240,43,300,85,360,117.3C420,149,480,171,540,154.7C600,139,660,85,720,106.7C780,128,840,224,900,256C960,288,1020,256,1080,229.3C1140,203,1200,181,1260,192C1320,203,1380,245,1410,266.7L1440,288L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+          d="M0,0L30,5.3C60,11,120,21,180,58.7C240,96,300,160,360,170.7C420,181,480,139,540,106.7C600,75,660,53,720,74.7C780,96,840,160,900,186.7C960,213,1020,203,1080,170.7C1140,139,1200,85,1260,69.3C1320,53,1380,75,1410,85.3L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
         ></path>
       </svg>
     </section>
     <!-- akhir projects -->
 
+    <!-- skills -->
+    <section id="skills">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-md-12">
+            <div class="text-center text-light">
+              <h2>Skills</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-lg-2 text-center mb-5">
+            <span class="icon">
+              <span>
+                <img src="assets/img/skills/php.png" alt="php" class="img-fluid img-thumbnail" />
+              </span>
+            </span>
+            <h3 class="text-light">PHP</h3>
+          </div>
+          <div class="col-md-2 col-lg-2 text-center mb-5">
+            <span class="icon">
+              <span>
+                <img src="assets/img/skills/js.png" alt="js" class="img-fluid img-thumbnail" />
+              </span>
+            </span>
+            <h3 class="text-light">JavaScript</h3>
+          </div>
+          <div class="col-md-2 col-lg-2 text-center mb-5">
+            <span class="icon">
+              <span>
+                <img src="assets/img/skills/java.png" alt="java" class="img-fluid img-thumbnail" />
+              </span>
+            </span>
+            <h3 class="text-light">Java</h3>
+          </div>
+          <div class="col-md-2 col-lg-2 text-center mb-5">
+            <span class="icon">
+              <span>
+                <img src="assets/img/skills/python.png" alt="python" class="img-fluid img-thumbnail" />
+              </span>
+            </span>
+            <h3 class="text-light">Python</h3>
+          </div>
+          <div class="col-md-2 col-lg-2 text-center mb-5">
+            <span class="icon">
+              <span>
+                <img src="assets/img/skills/laravel.png" alt="laravel" class="img-fluid img-thumbnail" />
+              </span>
+            </span>
+            <h3 class="text-light">Laravel</h3>
+          </div>
+          <div class="col-md-2 col-lg-2 text-center mb-5">
+            <span class="icon">
+              <span>
+                <img src="assets/img/skills/mysql.png" alt="mysql" class="img-fluid img-thumbnail" />
+              </span>
+            </span>
+            <h3 class="text-light">MySQL</h3>
+          </div>
+        </div>      
+      </div>
+      <div class="row justify-content-center mt-5 freelance">
+        <div class="col-lg-8 text-center">
+          <p class="text-light fs-5">Do you have any project?</p>
+          <h2 class="fs-1 text-white mb-4">I'm Available for Freelance Projects</h2>
+          <a href="#contact" class="btn btn-outline-light">Hire Me</a>
+        </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,64L30,58.7C60,53,120,43,180,74.7C240,107,300,181,360,192C420,203,480,149,540,128C600,107,660,117,720,144C780,171,840,213,900,202.7C960,192,1020,128,1080,90.7C1140,53,1200,43,1260,42.7C1320,43,1380,53,1410,58.7L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir skills -->
+
     <!-- contact -->
     <section id="contact">
       <div class="container">
-        <div class="row text-center mb-3">
+        <div class="row text-center mb-5">
           <div class="col">
             <h2>Contact Me!</h2>
           </div>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-md-6">
+        <div class="row justify-content-center fs-5">
+          <div class="col-lg-6">
             <div class="alert alert-success alert-dismissible fade show d-none" role="alert">
               <strong>Congrats!</strong> Your message has been sent.
               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
             <form name="submit-to-google-sheet">
               <div class="mb-3">
-                <label for="fullname" class="form-label">Full Name</label>
+                <label for="fullname" class="form-label text-dark">Full Name</label>
                 <input type="text" class="form-control" id="fullname" aria-describedby="fullname" name="fullname" />
               </div>
               <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
+                <label for="email" class="form-label text-dark">Email</label>
                 <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
               </div>
               <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
+                <label for="message" class="form-label text-dark">Message</label>
                 <textarea class="form-control" id="message" rows="3" name="message"></textarea>
               </div>
-              <button type="submit" class="btn text-light btn-send">Send Message</button>
-              <button class="btn text-light btn-loading d-none" type="button" disabled>
+              <button type="submit" class="btn btn-dark btn-send">Send Message</button>
+              <button class="btn btn-dark btn-loading d-none" type="button" disabled>
                 <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
                 Loading...
               </button>
             </form>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-md-12 fs-3">
+                <div class="info-box">
+                  <i class="bi bi-share-fill"></i>
+                  <h3>Social Profiles</h3>
+                  <div class="social-links">
+                    <a href="https://wa.me/6281313162548/"><i class="bi bi-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/julianjv_/" class="instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/jovijulian2002/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://github.com/jovijulian"><i class="bi bi-github"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bi bi-envelope-fill"></i>
+                  <h3>Email</h3>
+                  <p>jovijulian2002@gmail.com</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bi bi-telephone-fill"></i>
+                  <h3>Call</h3>
+                  <p>+6281313162548</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -372,12 +448,6 @@
         (card.dataset.aos = "flip-down"), (card.dataset.aosDuration = 1000);
       });
       AOS.init();
-    </script>
-    <script>
-      $(".navbar .nav-link").on("click", function () {
-        $(".navbar").find(".active").removeClass("active");
-        $(this).addClass("active");
-      });
     </script>
   </body>
 </html>

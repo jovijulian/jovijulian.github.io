@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap");
+* {
+  font-family: "Fredoka", sans-serif;
+}
 .jumbotron {
   padding-top: 6rem;
   background-color: #5000ca;
@@ -18,12 +22,8 @@
 }
 /* akhir bug */
 
-.navbar {
-  background-color: #5000ca;
-}
-
 .active {
-  color: var(--first-color);
+  color: #fff;
 }
 
 .footer {
@@ -37,74 +37,85 @@
   border-bottom: 3px solid #149ddd;
 }
 
-#educational {
+#resume {
   background-color: #5000ca;
 }
 
-#educational .resume-title {
+#resume .resume-title {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #3b434a;
+  color: #fff;
 }
 
-#educational .resume-item {
+#resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
   border-left: 2px solid #82909c;
   position: relative;
+  color: #fff;
 }
 
-#educational .resume-item::before {
+#resume .resume-item::before {
   content: "";
   position: absolute;
   width: 16px;
   height: 16px;
   border-radius: 50px;
-  left: -9px;
+  left: -6px;
   top: 0;
   background: #fff;
   border: 2px solid #82909c;
 }
-
-#projects {
-  background-color: #5000ca;
+#resume .resume-item:last-child {
+  padding-bottom: 0;
 }
 
-#sosmed .info-box {
+#projects {
+  background-color: #fff;
+}
+#skills {
+  background-color: #5000ca;
+}
+/* #skills .freelance {
+  border-radius: 50px;
+  padding: 20px 0 30px 0;
+  border: 1px solid #dde1e4;
+} */
+
+#contact .info-box {
   color: white;
   text-align: center;
-  box-shadow: 0 0 30px rgba(7, 0, 0, 0.6);
   background-color: #5000ca;
   padding: 20px 0 30px 0;
   border-radius: 10px;
 }
-#sosmed .info-box i.bx {
+#contact .info-box i.bx {
   font-size: 24px;
   color: #ffb727;
   border-radius: 50%;
   padding: 15px;
   background: #fff6e4;
 }
-#sosmed .info-box h3 {
+#contact .info-box h3 {
   font-size: 20px;
   color: white;
   font-weight: 700;
   margin: 10px 0;
 }
-#sosmed .info-box p {
+#contact .info-box p {
   padding: 0;
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
-#sosmed .social-links {
+#contact .social-links {
   margin-top: 15px;
   display: flex;
   justify-content: center;
 }
-#sosmed .social-links a {
+#contact .social-links a {
   font-size: 18px;
   display: inline-block;
   color: white;
