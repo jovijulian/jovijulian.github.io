@@ -1,3 +1,4 @@
+// submit contact form to google sheet
 const scriptURL = "https://script.google.com/macros/s/AKfycbyQxggsbUW41-3yk68Svv_w-f8Suu0qsG-1B76h9RXx3dbR7iLC8_p3RFa3H98Wne0/exec";
 const form = document.forms["submit-to-google-sheet"];
 const btnKirim = document.querySelector(".btn-send");
@@ -24,6 +25,7 @@ form.addEventListener("submit", (e) => {
     .catch((error) => console.error("Error!", error.message));
 });
 
+// function ketikan pada home
 const typed = document.querySelector(".typed");
 if (typed) {
   let typed_strings = typed.getAttribute("data-typed-items");
@@ -37,6 +39,7 @@ if (typed) {
   });
 }
 
+// navbar aktif ketika di scroll
 const sectionAll = document.querySelectorAll("section[id]");
 window.addEventListener("scroll", () => {
   const scrollY = window.pageYOffset;
@@ -53,6 +56,7 @@ window.addEventListener("scroll", () => {
   });
 });
 
+// navbar transparant
 window.addEventListener("scroll", () => {
   let nav = document.querySelector("nav");
   window.addEventListener("scroll", () => {

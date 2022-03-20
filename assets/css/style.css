@@ -2,31 +2,25 @@
 * {
   font-family: "Fredoka", sans-serif;
 }
-.jumbotron {
-  padding-top: 6rem;
+/* navbar */
+.navbar {
   background-color: #5000ca;
 }
-
-/* mengatasi bug tidak responsive dari library aos */
-* {
-  overflow-x: hidden;
-}
-/* untuk menyembunyikan scrollbar dari overflow ktika run di chrome */
-*::-webkit-scrollbar {
-  display: none; /* untuk menyembunyikan scrollbar dari overflow ktika run di chrome */
-}
-/* untuk menyembunyikan scrollbar dari overflow ktika run di IE, Edge, Firefox */
-* {
-  -ms-overflow-style: none; /* IE dan Edge */
-  scrollbar-width: none; /* Firefox */
-}
-/* akhir bug */
 
 .active {
   color: #fff;
 }
+/* end navbar */
 
-.footer {
+/* klik section */
+section {
+  padding-top: 5rem;
+}
+/* end section */
+
+/* start home */
+.jumbotron {
+  padding-top: 6rem;
   background-color: #5000ca;
 }
 
@@ -36,7 +30,9 @@
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
 }
+/* end home */
 
+/* start resume */
 #resume {
   background-color: #5000ca;
 }
@@ -68,17 +64,25 @@
   background: #fff;
   border: 2px solid #82909c;
 }
+
 #resume .resume-item:last-child {
   padding-bottom: 0;
 }
+/* end resume */
 
+/* start projects */
 #projects {
   background-color: #fff;
 }
+/* end projects */
+
+/* start skills */
 #skills {
   background-color: #5000ca;
 }
+/* end skills */
 
+/* start contact */
 #contact .info-box {
   color: white;
   text-align: center;
@@ -121,16 +125,30 @@
   border-radius: 50px;
   border: 1px solid #dde1e4;
 }
-.contact .social-links a:hover {
-  color: #fff;
-  border-color: #ffb727;
-  background: #ffb727;
-}
 
 .btn {
   background-color: #5000ca;
 }
 
-section {
-  padding-top: 5rem;
+/* end contact */
+
+/* start footer */
+.footer {
+  background-color: #5000ca;
 }
+/* end footer */
+
+/* mengatasi bug tidak responsive dari library aos */
+* {
+  overflow-x: hidden;
+}
+/* untuk menyembunyikan scrollbar dari overflow ktika run di chrome */
+*::-webkit-scrollbar {
+  display: none; /* untuk menyembunyikan scrollbar dari overflow ktika run di chrome */
+}
+/* untuk menyembunyikan scrollbar dari overflow ktika run di IE, Edge, Firefox */
+* {
+  -ms-overflow-style: none; /* IE dan Edge */
+  scrollbar-width: none; /* Firefox */
+}
+/* end bug */
