@@ -32,6 +32,12 @@ section {
 }
 /* end home */
 
+/* start about */
+#about {
+  background-color: #f7f5f2;
+}
+/* end about */
+
 /* start resume */
 #resume {
   background-color: #5000ca;
@@ -70,11 +76,11 @@ section {
 }
 /* end resume */
 
-/* start projects */
-#projects {
-  background-color: #fff;
+/* start portofolio */
+#portofolio {
+  background-color: #f7f5f2;
 }
-/* end projects */
+/* end portofolio */
 
 /* start skills */
 #skills {
@@ -83,6 +89,9 @@ section {
 /* end skills */
 
 /* start contact */
+#contact {
+  background-color: #f7f5f2;
+}
 #contact .info-box {
   color: white;
   text-align: center;

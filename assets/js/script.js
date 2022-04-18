@@ -52,7 +52,6 @@ window.addEventListener("scroll", () => {
     } else {
       document.querySelector('li a[href*="' + sectionId + '"]').classList.remove("active");
     }
-    console.log(sectionId);
   });
 });
 
